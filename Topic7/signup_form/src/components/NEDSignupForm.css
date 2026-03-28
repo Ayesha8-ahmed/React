@@ -1,0 +1,240 @@
+.ned-page {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  min-height: 100vh;
+}
+
+/* ── Header - dark red NED color ── */
+.ned-header {
+  background-color: #8B0000;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* ── Logo circles ── */
+.ned-logo {
+  width: 75px;
+  height: 75px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 9px;
+  color: #8B0000;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.3;
+}
+
+/* ── Header center title ── */
+.ned-header-center {
+  text-align: center;
+  flex: 1;
+  padding: 0 10px;
+}
+
+.ned-header-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0 5px 0;
+}
+
+.ned-header-sub {
+  font-size: 13px;
+  margin: 0;
+}
+
+/* ── Body area ── */
+.ned-body {
+  padding: 25px 20px;
+}
+
+/* ── White box with two columns ── */
+.ned-box {
+  display: flex;
+  border: 1px solid #bbb;
+  background-color: white;
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+/* ── LEFT side - Instructions ── */
+.ned-left {
+  flex: 1;
+  padding: 25px;
+  border-right: 1px solid #ccc;
+}
+
+.ned-left-title {
+  color: #8B0000;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 18px;
+}
+
+.ned-left-text {
+  font-size: 13px;
+  color: #333;
+  line-height: 1.65;
+  margin-bottom: 14px;
+}
+
+.ned-link {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.ned-link:hover {
+  text-decoration: underline;
+}
+
+/* ── RIGHT side - Form ── */
+.ned-right {
+  flex: 1;
+  padding: 25px;
+}
+
+/* ── Signup heading ── */
+.ned-signup-title {
+  font-size: 22px;
+  font-weight: normal;
+  color: #333;
+  margin-bottom: 4px;
+}
+
+.ned-signup-title span {
+  color: #5b9bd5;
+}
+
+.ned-sub-text {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 18px;
+}
+
+/* ── Form fields ── */
+.ned-form-group {
+  margin-bottom: 14px;
+}
+
+.ned-label {
+  display: block;
+  font-size: 13px;
+  color: #333;
+  margin-bottom: 4px;
+}
+
+.ned-input {
+  width: 100%;
+  padding: 7px 10px;
+  border: 1px solid #ccc;
+  font-size: 13px;
+  border-radius: 2px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+/* Red border when error */
+.ned-input.error {
+  border-color: #cc0000;
+}
+
+.ned-input:focus {
+  border-color: #8B0000;
+}
+
+/* ── Error message ── */
+.ned-error {
+  color: #cc0000;
+  font-size: 11px;
+  margin-top: 3px;
+}
+
+/* ── Hint text ── */
+.ned-hint {
+  font-size: 11px;
+  color: #666;
+  margin-top: 3px;
+}
+
+/* ── Captcha row ── */
+.ned-captcha-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+/* Change Code button */
+.ned-change-btn {
+  padding: 6px 14px;
+  background-color: #ce2c2c;
+  border: 1px solid #ce2323;
+  font-size: 13px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.ned-change-btn:hover {
+  background-color: #a52727;
+}
+
+/* Red captcha display box */
+.ned-captcha-box {
+  background-color: #8B0000;
+  color: white;
+  padding: 7px 18px;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
+  letter-spacing: 5px;
+  border-radius: 2px;
+  user-select: none;
+  min-width: 100px;
+  text-align: center;
+}
+
+/* ── Bottom buttons row ── */
+.ned-btn-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 18px;
+}
+
+/* Login button */
+.ned-login-btn {
+  padding: 7px 22px;
+  background-color: #a72626;
+  border: 1px solid #be3636;
+  font-size: 13px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.ned-login-btn:hover {
+  background-color: #ddd;
+}
+
+/* Forgot password link */
+.ned-forgot {
+  color: #cc0000;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+/* ── Success message ── */
+.ned-success {
+  background-color: #d4edda;
+  border: 1px solid #c3e6cb;
+  color: #155724;
+  padding: 14px;
+  border-radius: 3px;
+  font-size: 13px;
+  margin-top: 10px;
+}

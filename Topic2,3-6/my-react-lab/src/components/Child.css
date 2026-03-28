@@ -1,0 +1,23 @@
+.light {
+  background-color: white;
+}
+
+.light h1{
+    color: blue;
+}
+
+.light p {
+    color: brown;
+}
+
+.dark {
+  background-color: rgba(0, 0, 0, 0.795);
+}
+
+.dark h1{
+    color: rgb(249, 245, 1);
+}
+
+.dark p{
+    color : rgb(231, 9, 190);
+}
